@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+section{
+    /*Una regla importante es que para utilizar el min y el max en el width necesitamos tener un width base y este casi siempre va a ser en %*/
+    width: 80%;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 200px;
+    margin: 0px auto; /*aqui lo que le digo es que arriba y abajo no genere ningun margin, pero a los lados genere un margen automatico, de esa manera el contenedor se queda en el centro*/
+    background-color: red;
+}
+

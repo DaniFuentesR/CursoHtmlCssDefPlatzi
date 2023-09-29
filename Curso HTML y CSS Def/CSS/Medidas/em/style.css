@@ -1,0 +1,15 @@
+/*em => es un acronimo de elemento, y lo que hace es tomar el tamaño de fuente que tenga el padre directo, en este caso main toma el tamaño de fuente de html
+
+lo que hace es una regla de 3, donde 1em = 16px por default ya que no le he asignado un tamaño diferente, entonces si yo le coloco 1.5em es {(16*1.5)=24px}*/
+
+body{
+    font-size: 20px; /*En este caso body es el padre directo de main, por lo tanto 1em = 20px*/
+}
+
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div{
+    font-size: 1.5em;
+}

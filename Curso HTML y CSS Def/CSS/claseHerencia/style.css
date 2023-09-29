@@ -1,0 +1,7 @@
+html{
+    font-size: 75%;
+}
+
+p{
+    font-size: inherit; /*Inherit lo que hace es heredar de su padre mas cercano la propiedad que se le indica, en este caso el tamaño, inherit ayuda a que p herede el tamaño de html*/
+}

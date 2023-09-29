@@ -1,0 +1,15 @@
+/*rem => siempre va a tener referencia al estilo que tenga la etiqueta root que la mayoria de los casos va a ser html, y el navegador por default le agrega 16px de font-size, por lo que 1rem siempre va a ser igual a 16px, a diferencia de em que su tamaño va a depender del valor que tenga su padre directo*/
+
+
+html{
+    font-size: 62.5%; /*Con esto lo que hago es darle la medida standar a la etiqueta html para que 1rem sea igual a 10px con esto cada que utilice 1rem se que es igual a 10px, 2rem = 20px y así sucesivamente
+    
+    Con esta forma puedo utilizar rem para todas las medidas de todas las cosas que haga*/
+}
+p{
+    font-size: 1.6rem;
+}
+
+main div{
+    font-size: 2rem;
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 18, 4);
+    margin-bottom: 10px;
+}
+
+#main-nav{
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#main-nav li{
+    display: inline-block;
+    
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #83a0a0;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#main-nav a:hover{
+    background: green;
+}
+
+
+

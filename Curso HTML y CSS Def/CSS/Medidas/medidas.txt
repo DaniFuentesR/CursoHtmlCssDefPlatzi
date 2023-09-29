@@ -1,0 +1,19 @@
+Medidas:
+
+1. Absolutas => px (pixeles)
+    Absoluta significa que esa medida no va a cambiar sin importar el tamaño de la pantalla donde estemos viendo el proyecto
+
+2. relativas => 
+    %, 
+    em => elemento 
+    rem (root em),
+    max-width / max-height,
+    min-width / min-height ,
+    vw (viewport width), 
+    vh (viewport Height)
+    
+    Estas medidas son relativas porque si van a cambiar dependiendo de la pantalla de donde se vea. 
+
+overflow => significa que tenemos mas texto contenido que el tamaño que lo permite el contenedor padre para eso se utiliza el min o max-width o el min o max - height. al utilizar el min-height por ejemplo, la altura del contenedor crece. 
+
+Lo que se le esta diciendo es que la altura minima que el contenedor va a tener va a ser de 500x por ejemplo, si el contendio excede los 500px, crece con tu contenido hasta que tu contenido se ajuste al tamaño del contenedor.

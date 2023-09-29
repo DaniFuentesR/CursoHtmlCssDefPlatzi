@@ -1,0 +1,6 @@
+/*Los combinadores nos permiten combinar multiples selectores y crear una mayor especificidad*/
+
+h2 + p{ /*Aplicale el color rojo a todas las etiquetas p que esten cerca a un h2, eso se hace por medio del signo + */
+    color: red;
+}
+

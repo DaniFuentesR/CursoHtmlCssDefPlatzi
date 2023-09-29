@@ -1,0 +1,1 @@
+alt => me da como la descripción de la imagen que voy a renderizar 

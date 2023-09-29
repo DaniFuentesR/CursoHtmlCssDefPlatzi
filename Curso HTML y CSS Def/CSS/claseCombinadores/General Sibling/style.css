@@ -1,0 +1,5 @@
+/*General Sibling: va a aplicarle el estilo siempre y cuando existan a la misma linea como hermanos, esa etiqueta que se esta modificando en mis sestilos con la tilde de la ñ*/
+
+h2 ~ p{
+    color: red;
+}

@@ -1,0 +1,10 @@
+div > p{ /*El div (Padre) que sea mayor > que p (Hijo) o etiqueta parrafo que sea hija de una etiqueta div, a esa etiqueta agregarle los soguientes estilos*/
+
+    color: rgb(158, 14, 14);
+    background-color: blue;
+}
+
+/*Descendiente: todas las etiquetas que estén adentro de un contenedor o de alguna etiqueta que tenga la clase ...*/
+ div p{ 
+    background-color: aqua;
+ }

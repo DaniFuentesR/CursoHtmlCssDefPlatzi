@@ -1,0 +1,23 @@
+MOBILE FIRST / ONLY
+    Significa que gran parte de los proyectos web deben estar ya diseñados solo para dispositivos moviles, ya no hay que preocuparse tanto de que un proyecto se vea bien solamente en una laptop, sino que es mas importante tener en cuenta que se vea bien en un dispositivo movil.
+
+    el diseño se debe adaptar de menor a mayor, es decir: 
+
+        1. Hacerlo primero para que se vea bien en un celular
+        2. Después para que se vea bien en una tablet
+        3. por ultimo para que se vea bien en una laptop
+
+    RESPONSIVE DESGIN:
+
+        Es al revés de mobile first, es decir el orden de adaptación es invertido. 
+
+
+    PATRONES DE MAQUETACIÓN RESPONSIVE DESIGN:
+
+        1. Mostly Fluid: 
+            Se inicia con columnas, como se ha trabajado con flex y a medida que va avanzando su adaptación en dispositivos, se empiezan a reacomodar las columnas
+
+        2. Layout Shifter: 
+            Cuando se tienen todos los elementos de forma vertical, pero al momento de empezar a crecer la pantalla se empiezan a acomodar ciertos bloques 
+
+        3. Column Drop: Cuando se tiene todo de forma vertical, pero al momento de aumentar el ViewPort empieza a arrojar los contenedores, es decir, los empieza a organizar de forma lateral uno al lado del otro. 

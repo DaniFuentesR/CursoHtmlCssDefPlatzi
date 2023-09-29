@@ -1,0 +1,12 @@
+*{ /*Esto se utiliza para quitar las medidas en el modelo de caja que da por default el navegador*/
+    box-sizing: border-box; /*Me ayuda a tomar el 100% del ancho de la pantalla para que no tenga que hacer ningun tipo de scroll incomodo horizontalmente, esto se hace por medio de que calcula el (tamaño del width - padding - border) asi genera la dimensión justa*/
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

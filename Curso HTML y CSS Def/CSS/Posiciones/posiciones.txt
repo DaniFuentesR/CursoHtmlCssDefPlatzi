@@ -1,0 +1,12 @@
+Hay diferentes tipo de positions: 
+
+    - static => esta position viene por default, por eso cuando uno hace scroll los elementos no se moveran, se quedas estaticos. 
+                En esta posicion no se puede utilizar ni top, bottom, left, right, en el resto de posiciones SI. 
+
+    - absolute => 
+
+    - relative 
+
+    - fixed 
+
+    - sticky

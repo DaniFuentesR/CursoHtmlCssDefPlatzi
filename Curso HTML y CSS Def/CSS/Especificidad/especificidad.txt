@@ -1,0 +1,24 @@
+El orden de la especificidad es:
+
+1. !important
+
+2. estilo embedido => que es cuando en el cuerpo del html coloco estilos en vez de hacerlo en un archivo aparte de css o con la etiqueta style en el head del html
+
+    ej: <p style="background-color:red font-size:16px">Hola</p>
+
+3. #id
+
+4. .class=""
+
+5. :pseudoclases y ::pseudoelementos
+
+6. *{} universal
+
+Por lo que si yo tengo en mi cuerpo html:
+
+    ej: 
+        <div #id="divPrincipal"  .class="mainDiv">
+            <p>Hola</p>
+        </div>
+
+    Segun lo anterior, me va es a tomar solamente los estilos que yo aplique dentro del ID por el tema de la especificidad, primero tiene importancia todo lo que contenga el id y despues si la clase. 

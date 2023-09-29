@@ -1,0 +1,41 @@
+Display
+
+- Display: block => div y p vienen por defecto con display block, lo que significa es que va a utilizar el 100% del espacio que tenga adelante sin importar si el contenido tiene uno o mas texto. 
+
+    Es decir, sin importar el tamaño del texto, block va a colocar una etiqueta por debajo de otra 
+
+- Etiqueta Span: Lo que hace es utilizar el display: inline, para que tome el espacio solamente del tamaño del texto y si hay dos span, los ubica uno al lado de otro, no como el block que es uno encima de otro. 
+
+    display: inline, no me permite darle un margin o padding top, tampoco permite darle altura y ancho
+
+- inline-block: toma lo mejor de inline y de block, ocupa el 100% del tamaño del contenido, si hay espacio permite que otros hermanos se pongan enfrente de ellos, si no los pone debajo. Permite poner margin,padding, etc
+
+
+-display Flex: Se le aplica al contenedor padre, y esto hace que sus hijos se ubiquen uno al lado del otro. 
+
+    flex-direction: Por default, al implementar flex, la direction es row, pero si puede cambiar por medio del valor column:
+
+        flex-direction: column => entonces con esto me coloca cada contenedor hijo como los tenia al principio antes de flex, en columnas (Uno debajo de otro)
+
+        flex-direction: column-reverse; => me coloca los contenedores en columnas pero con el orden invertido 
+        flex-direction: row-reverse;
+
+        flex-wrap: wrap => lo que hace esta propiedad es que cuando ya los elementos no tienen espacio para acomodarse, automaticamente se van a mover para poder acomodarse bien y se van a bajar a la fila de abajo para poder quedar dentro del contenedor principal. 
+
+        justify-content: center; Me acomoda los contenedores hijo en el centro del contenedor padre, estos siempre y cuando utilice flex
+
+        align-items: center => me acomoda de forma vertical en el centro del contenedor padre los elementos hijos
+
+        align-items: flex-end => me acomoda en la parte inferior del contenedor padre los elementos hijo
+
+        align-items: flex-start => me acomoda en la parte superior del contenedor padre los elementos hijo
+
+        align-items: stretch => si el elemento no tiene una altura definida, lo que hace es ocupar el 100% de la altura del contenedor automaticamente.
+
+        align-items: baseline => si el elemento no tiene una altura definida, va a tomar el tamaño de su contenido. 
+
+        order => me acomoda segun le indique con numero el orden en que quiero que se ordenen, si no les coloco orden a ciertos elementos, estos van a acomodarse por default hacia la izquierda
+
+        flex-grow: 1 => me ocupa el espacio faltante del contenedor padre, el valor de la propiedad me indica cuantos espacios quiero que ocupe. 
+
+        
